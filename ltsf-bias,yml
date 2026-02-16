@@ -1,0 +1,23 @@
+name: ltsf-bias
+name: ltsf-bias
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - pip
+  - pytorch
+  - pytorch-cuda=11.8  # Or your specific version
+  - numpy
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - tqdm
+  - optuna
+  - beautifulsoup4
+  - requests
+  - pip:
+      - lightning
+      - holidays
